@@ -18,7 +18,7 @@
 | `'a###c'.replace(/#/g, 'b')` | `str.Replace("#", "b")` | `str.replace('#', 'b')` |
 | `str.toUpperCase()`          | `str.ToUpper()`         | `str.upper()`           |
 | `str.toLowerCase()`          | `str.ToLower()`         | `str.lower()`           |
-| `` `Hello ${str}`` `         | `` $`Hello {str}` ``    | `` `f'Hello {str}'` ``  |
+| `` `Hello ${str}` ``         | `$"Hello {str}"`        | `` `f'Hello {str}'` ``  |
 
 ## Lists
 
