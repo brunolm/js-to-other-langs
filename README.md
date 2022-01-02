@@ -1,5 +1,27 @@
 # JavaScript Cheat Sheet for other languages
 
+## Basic syntax
+
+| JavaScript                         | C#                                 | Python                 |
+| ---------------------------------- | ---------------------------------- | ---------------------- |
+| `if (#) {} else if (#) {} else {}` | `if (#) {} else if (#) {} else {}` | `if #: elsif #: else:` |
+| `console.log(#)`                   | `Console.WriteLine(#)`             | `print(#)`             |
+| `let x = 1`                        | `var x = 1`                        | `x = 1`                |
+| `'string'`                         | `"string"`                         | `'string'`             |
+| `// comment`                       | `// comment`                       | `# comment`            |
+| `(a, b) => a + b`                  | `(a, b) => a + b`                  | `lambda a, b: a + b`   |
+
+## Strings
+
+| JavaScript                   | C#                      | Python                  |
+| ---------------------------- | ----------------------- | ----------------------- |
+| `'a###c'.replace(/#/g, 'b')` | `str.Replace("#", "b")` | `str.replace('#', 'b')` |
+| `str.toUpperCase()`          | `str.ToUpper()`         | `str.upper()`           |
+| `str.toLowerCase()`          | `str.ToLower()`         | `str.lower()`           |
+| `Hello ${str}`               | `$``Hello {str}```      | `f'Hello {str}'`        |
+
+## Lists
+
 | JavaScript        | C#                      | Python                          |
 | ----------------- | ----------------------- | ------------------------------- |
 | `arr.concat`      | `arr.Concat`            | `arr + arr2`                    |
